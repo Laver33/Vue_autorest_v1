@@ -2,11 +2,7 @@
   <div class="app">
     <Header />
     <main>
-      <Hero />
-      <Services />
-      <Cases />
-      <Technologies />
-      <ContactForm />
+      <router-view></router-view>
     </main>
     <Footer />
   </div>
@@ -14,23 +10,16 @@
 
 <script>
 import Header from './components/Header.vue'
-import Hero from './components/Hero.vue'
-import Services from './components/Services.vue'
-import Cases from './components/Cases.vue'
-import Technologies from './components/Technologies.vue'
-import ContactForm from './components/ContactForm.vue'
 import Footer from './components/Footer.vue'
+
+
 
 export default {
   name: 'App',
   components: {
     Header,
-    Hero,
-    Services,
-    Cases,
-    Technologies,
-    ContactForm,
-    Footer
+    Footer,
+
   }
 }
 </script>

@@ -60,7 +60,6 @@ export default {
   },
   methods: {
     submitForm() {
-      // Здесь должна быть логика отправки формы
       console.log('Форма отправлена:', this.form);
       alert('Спасибо! Мы свяжемся с вами в ближайшее время.');
       this.resetForm();
